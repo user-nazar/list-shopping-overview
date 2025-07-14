@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  width: 600px;
+  margin-left: 35%;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #d8d535;
+}
+
+form {
+  color: #1b1b1b;
+  font-size: 22px;
+}
+
+input[type="text"] {
+  background-color: #d2d2d2;
+  border: none;
+  border-radius: 1em;
+  padding: 0.2em;
+}
+
+.smlBtn {
+  background-color: #ddd;
+  color: #000000;
+  border: none;
+  margin: 0.2em;
+  padding: 0.4em;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+h1 {
+  color: #1b1b1b;
+  font-size: 50px;
+}
+
+h2 {
+  color: #1b1b1b;
+  font-size: 42px;
+  letter-spacing: -2px;
+  text-align: left;
+}
+.list {
+  color: #555;
+  font-size: 22px;
+  padding: 0 !important;
+  width: 500px;
+}
+.list li {
+  list-style: none;
+  border-bottom: 1px dotted #ccc;
+  text-indent: 25px;
+  height: auto;
+  padding: 10px;
+  text-transform: capitalize;
+  color: #2e2e2e;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.7px);
+  -webkit-backdrop-filter: blur(5.7px);
+  margin: 0.4em;
+}
+li a {
+  float: right;
+  text-decoration: none;
+  color: rgb(37, 170, 11);
+}
+
+li a:hover {
+  color: red;
+}
